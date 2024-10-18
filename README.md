@@ -1,27 +1,3 @@
-# Flixx App
-
-Movie info application built with vanilla JavaScript that uses **version 3** of the [TMDB API](https://developers.themoviedb.org/3)
-
-This is part of my **Modern JS From The Beginning 2.0** course
-
-<img src="images/screen.jpg" width="500">
-
-
-
-## Usage
-
-Just clone or download and then register for a free API key at https://www.themoviedb.org/settings/api
-
-Once you get your key, just add it to the `api.apiKey` value in the global state at the top.
-
-**Note:** If you are using this as a production project, you should not store this in the client. You can create a proxy server and store your key there. I may add that to the repo later on.
-
-I also may convert this to use a module bundler such as Vite or Webpack.
-
-## Theme (HTML & CSS)
-
-I also included the theme here for you to download. It does not include any JavaScript at all. This is what you should use if you are following along with the course.
-
 # TMDb Movie & TV Show Explorer
 
 Welcome to the **TMDb Movie & TV Show Explorer**! This web application allows users to explore and discover information about popular movies and TV shows using The Movie Database (TMDb) API.
@@ -32,8 +8,6 @@ Welcome to the **TMDb Movie & TV Show Explorer**! This web application allows us
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -45,11 +19,34 @@ Welcome to the **TMDb Movie & TV Show Explorer**! This web application allows us
 
 ## Technologies Used
 
-- **HTML5**: For the structure of the web pages.
-- **CSS3**: For styling the application.
-- **JavaScript**: For interactive elements and API integration.
-- **TMDb API**: To fetch up-to-date movie and TV show information.
-- **Fetch API**: For making asynchronous requests to the TMDb.
+- **HTML5**:
+
+  - **Description**: The latest version of the Hypertext Markup Language (HTML) used for structuring the web pages.
+  - **Usage**: Provides the semantic structure of the application, including headers, footers, sections, and forms for user interaction.
+
+- **CSS3**:
+
+  - **Description**: The latest version of Cascading Style Sheets (CSS), which is used for styling web pages.
+  - **Usage**: Enhances the visual presentation of the application, including layout, colors, fonts, and responsive design for different devices.
+
+- **JavaScript**:
+
+  - **Description**: A high-level, dynamic programming language used for client-side scripting.
+  - **Usage**: Adds interactivity to the application, handling user inputs, updating the DOM, and managing API calls to fetch and display data.
+
+- **TMDb API**:
+
+  - **Description**: The Movie Database (TMDb) API provides access to a vast collection of movie and TV show data.
+  - **Usage**: Fetches up-to-date information about movies and TV shows, including titles, ratings, genres, and descriptions.
+
+- **Fetch API**:
+
+  - **Description**: A modern interface for making HTTP requests in JavaScript.
+  - **Usage**: Used for asynchronous requests to the TMDb API, allowing the application to retrieve data without refreshing the page.
+
+- **Spinner Library** (e.g., Spin.js):
+  - **Description**: A lightweight library to create and manage loading spinners.
+  - **Usage**: Provides visual feedback to users during data loading operations, enhancing the overall user experience.
 
 ## Getting Started
 

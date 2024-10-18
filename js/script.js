@@ -11,7 +11,7 @@ const global = {
     rating: 0,
   },
   api: {
-    apiKey: '',
+    apiKey: 'ADD_YOUES',
     apiUrl: 'https://api.themoviedb.org/3/',
   },
 };
